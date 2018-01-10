@@ -29,7 +29,7 @@
 
 alarm[1] = 1;
 
-nbEn4 = 0;
+nbFin = 0;
 </string>
           </argument>
         </arguments>
@@ -70,7 +70,7 @@ instance_create(x,352,o_ennemifin);
 instance_create(x,384,o_ennemifin);
 
 alarm[1] = room_speed * 4;
-nbEn4++;
+nbFin++;
 </string>
           </argument>
         </arguments>
@@ -95,7 +95,7 @@ nbEn4++;
             <kind>1</kind>
             <string>///destruction
 
-if(nbEn4 &gt;= 2) {
+if(nbFin &gt;= 2) {
     instance_destroy();
 }
 </string>

@@ -90,37 +90,6 @@ y = clamp(y,10,390);
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="o_ennemi3">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///destruction vaisseau ennemi3
-
-with instance_place(x,y,o_ennemi3) {
-    instance_destroy();
-    }
-
-instance_destroy();
-instance_create(x,y,o_explosion);
-room_goto(r_gameover);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="4" ename="o_ennemi2">
       <action>
         <libid>1</libid>
@@ -172,6 +141,37 @@ room_goto(r_gameover);
             <string>///destruction vaisseau ennemi1
 
 with instance_place(x,y,o_ennemi1) {
+    instance_destroy();
+    }
+
+instance_destroy();
+instance_create(x,y,o_explosion);
+room_goto(r_gameover);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="o_ennemi3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///destruction vaisseau ennemi3
+
+with instance_place(x,y,o_ennemi3) {
     instance_destroy();
     }
 

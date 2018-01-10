@@ -29,7 +29,7 @@
 
 alarm[1] = 1;
 
-nbEn3 = 0;
+nbboss = 0;
 </string>
           </argument>
         </arguments>
@@ -55,11 +55,11 @@ nbEn3 = 0;
             <string>///Apparition
 
 
-instance_create(x,random(300),o_ennemi3);
+instance_create(x,y,o_boss);
 
 
 alarm[1] = room_speed * 4;
-nbEn3++;
+nbboss++;
 </string>
           </argument>
         </arguments>
@@ -84,8 +84,8 @@ nbEn3++;
             <kind>1</kind>
             <string>///destruction
 
-if(nbEn3 &gt;= 4) {
-    instance_create(2632,192,o_boss);
+if(nbboss &gt;= 1) {
+    instance_create(x,y,o_spawnerfin);
     instance_destroy();
 }
 </string>

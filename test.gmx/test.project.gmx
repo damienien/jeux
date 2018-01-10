@@ -16,6 +16,7 @@
     <sprite>sprites\s_ennemi1</sprite>
     <sprite>sprites\s_ennemi2</sprite>
     <sprite>sprites\s_ennemi3</sprite>
+    <sprite>sprites\s_boss</sprite>
     <sprite>sprites\s_laser</sprite>
     <sprite>sprites\s_laser2</sprite>
     <sprite>sprites\s_explosion</sprite>
@@ -26,6 +27,7 @@
     <sprite>sprites\s_finish</sprite>
     <sprite>sprites\s_level1</sprite>
     <sprite>sprites\s_next</sprite>
+    <sprite>sprites\s_stop</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_jaune</background>
@@ -35,6 +37,7 @@
   <objects name="objects">
     <object>objects\o_vaisseau</object>
     <object>objects\o_ennemi3</object>
+    <object>objects\o_boss</object>
     <object>objects\o_ennemi1</object>
     <object>objects\o_ennemi2</object>
     <object>objects\o_laser</object>
@@ -43,17 +46,17 @@
     <object>objects\o_spawner1</object>
     <object>objects\o_spawner2</object>
     <object>objects\o_spawner3</object>
-    <object>objects\o_spawner4</object>
+    <object>objects\o_spawnerboss</object>
     <object>objects\o_score</object>
     <object>objects\o_btnjouer</object>
     <object>objects\o_btnrejouer</object>
     <object>objects\o_btnquitter</object>
     <object>objects\o_scoreGO</object>
-    <object>objects\o_ennemifin</object>
     <object>objects\o_musique</object>
     <object>objects\o_finish</object>
     <object>objects\o_level1</object>
     <object>objects\o_next</object>
+    <object>objects\o_stop</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
